@@ -20,6 +20,6 @@ from blog import views  # Import the views from the blog app
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('blog/', views.hello_blog, name='blog'),  # Add the blog path
+    path('blog/', views.blog, name='blog'),  # Add the blog path
 ]
 
